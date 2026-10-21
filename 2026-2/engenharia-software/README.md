@@ -1,15 +1,16 @@
 # Engenharia de Software II
 
-**Professor:** Prof. Rafael Hamamura
+**Professor:** Prof. Rafael Hamamura.
 
-Esta pasta reunirá os artefatos de análise e modelagem de software produzidos durante o semestre.
+Proposta acadêmica para revisão das issues #1 e #2, baseada exclusivamente nas fontes do projeto Igor. Validação pelo responsável e implementação permanecem pendentes.
 
-## Conteúdo previsto
+- [Requisitos, critérios de aceitação e casos de uso](./requisitos.md)
+- [Especificação UML](./modelagem-uml/especificacao.md)
+- [Casos de uso em SVG](./modelagem-uml/casos-de-uso.svg)
+- [Classes conceituais em SVG](./modelagem-uml/classes.svg)
+- [Sequência em SVG](./modelagem-uml/sequencia.svg)
+- [Registro de verificação e limitações](./verificacao.md)
 
-- [Requisitos funcionais e não funcionais](./requisitos.md).
-- Casos de uso e respectivo diagrama UML.
-- Diagrama de classes.
-- Diagrama de sequência.
-- [Documentação técnica da modelagem UML](./modelagem-uml/especificacao.md).
+As imagens são vetores editáveis. Nenhuma conclusão de checklist, aprovação acadêmica ou funcionalidade implementada é inferida desta entrega documental.
 
-Os requisitos e diagramas ainda não foram produzidos. Imagens serão adicionadas em PNG ou SVG e referenciadas por links relativos somente após sua elaboração.
+[Voltar ao semestre](../README.md)
