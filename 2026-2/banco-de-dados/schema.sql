@@ -1,0 +1,2 @@
+-- Status: pendente de desenvolvimento pelos alunos.
+-- Este arquivo receberá futuramente o script DDL validado do projeto.
