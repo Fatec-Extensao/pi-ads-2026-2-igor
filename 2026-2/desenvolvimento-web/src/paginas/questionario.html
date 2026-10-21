@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Protótipo acadêmico de sistema para gestão de pesquisas de satisfação.">
+<title>Questionário — Gestão de Pesquisas</title>
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header>
+<figure>
+<img src="../img/fotoinicial.jpg" width="1200" height="240" alt="Banner do Sistema de Gestão de Pesquisas">
+<figcaption>Banner de apresentação do sistema</figcaption>
+</figure>
+<h1>Sistema de Gestão de Pesquisas</h1>
+<p>Protótipo acadêmico para criação, aplicação e acompanhamento de pesquisas.</p>
+<nav aria-label="Navegação principal">
+<ul>
+<li><a href="../index.html">Início</a></li>
+<li><a href="../login.html">Login</a></li>
+<li><a href="../main.html">Sistema</a></li>
+</ul>
+</nav>
+</header>
+<main id="conteudo">
+<p class="demo-notice">Demonstração acadêmica: use apenas dados fictícios. As ações são simuladas nesta página e não enviam nem guardam seus dados.</p>
+<noscript><p>Ative o JavaScript para experimentar os formulários. A navegação das páginas continua disponível.</p></noscript>
+<nav aria-label="Navegação do sistema"><p><a href="../main.html">← Voltar ao painel</a></p></nav>
+<section aria-labelledby="titulo-funcao">
+<h2 id="titulo-funcao">Cadastrar questionário por categoria</h2>
+<p>Associe uma pesquisa, uma categoria e as perguntas que farão parte do questionário.</p>
+<form action="#" method="post">
+<fieldset><legend>Configuração do questionário</legend>
+<p><label for="pesquisa">Pesquisa:</label><br><select id="pesquisa" name="pesquisa" required><option value="">Selecione</option><option>Pesquisa de Satisfação 2026</option></select></p>
+<p><label for="categoria">Categoria:</label><br><select id="categoria" name="categoria" required><option value="">Selecione</option><option>Aluno</option><option>Professor</option></select></p>
+<fieldset><legend>Escolha as perguntas</legend>
+<p><input id="p1" name="perguntas" type="checkbox" value="experiencia"> <label for="p1">Como você avalia sua experiência?</label></p>
+<p><input id="p2" name="perguntas" type="checkbox" value="recomendacao"> <label for="p2">Você recomendaria o serviço?</label></p>
+<p><input id="p3" name="perguntas" type="checkbox" value="comentario"> <label for="p3">Deixe um comentário.</label></p>
+</fieldset>
+</fieldset><button type="submit" disabled>Criar questionário</button>
+<p class="form-feedback" role="status" tabindex="-1"></p></form>
+</section>
+
+</main>
+<footer>
+<hr>
+<p><strong>Projeto Integrador</strong> — Sistema de Gestão de Pesquisas</p>
+<p>Protótipo acadêmico em HTML5, CSS e JavaScript — dados fictícios.</p>
+</footer>
+</body>
+</html>

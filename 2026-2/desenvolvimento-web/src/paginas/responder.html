@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Protótipo acadêmico de sistema para gestão de pesquisas de satisfação.">
+<title>Responder questionário — Gestão de Pesquisas</title>
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header>
+<figure>
+<img src="../img/fotoinicial.jpg" width="1200" height="240" alt="Banner do Sistema de Gestão de Pesquisas">
+<figcaption>Banner de apresentação do sistema</figcaption>
+</figure>
+<h1>Sistema de Gestão de Pesquisas</h1>
+<p>Protótipo acadêmico para criação, aplicação e acompanhamento de pesquisas.</p>
+<nav aria-label="Navegação principal">
+<ul>
+<li><a href="../index.html">Início</a></li>
+<li><a href="../login.html">Login</a></li>
+<li><a href="../main.html">Sistema</a></li>
+</ul>
+</nav>
+</header>
+<main id="conteudo">
+<p class="demo-notice">Demonstração acadêmica: use apenas dados fictícios. As ações são simuladas nesta página e não enviam nem guardam seus dados.</p>
+<noscript><p>Ative o JavaScript para experimentar os formulários. A navegação das páginas continua disponível.</p></noscript>
+<nav aria-label="Navegação do sistema"><p><a href="../main.html">← Voltar ao painel</a></p></nav>
+<section aria-labelledby="titulo-funcao">
+<h2 id="titulo-funcao">Responder questionário</h2>
+<p>Experimente as perguntas em etapas. Voltar mantém as escolhas enquanto esta página estiver aberta.</p>
+<form action="#" method="post" data-questionnaire>
+<p id="step-progress" tabindex="-1" aria-live="polite"></p>
+<fieldset data-step><legend>Acesso de demonstração</legend>
+<p>Use o código fictício <strong>DEMO-2026</strong>. Ele não é uma credencial real.</p>
+<p><label for="senha">Código de demonstração:</label><input id="senha" name="senha" type="text" autocomplete="off" maxlength="40" required></p></fieldset>
+<fieldset data-step hidden><legend>1. Experiência</legend>
+<p><label for="q1">Como você avalia sua experiência?</label><select id="q1" name="q1" required><option value="">Selecione</option><option>Excelente</option><option>Boa</option><option>Regular</option><option>Ruim</option></select></p></fieldset>
+<fieldset data-step hidden><legend>2. Recomendação</legend>
+<p><label for="q2">Você recomendaria o serviço?</label><select id="q2" name="q2" required><option value="">Selecione</option><option>Sim</option><option>Não</option></select></p></fieldset>
+<fieldset data-step hidden><legend>3. Comentário opcional</legend>
+<p><label for="comentario">Deseja acrescentar algo? Não informe dados pessoais.</label><textarea id="comentario" name="comentario" rows="5" maxlength="1000"></textarea></p></fieldset>
+<div class="form-actions"><button type="button" id="previous" disabled>Voltar</button><button type="button" id="next" disabled>Avançar</button><button type="submit" id="finish" hidden disabled>Concluir demonstração</button></div>
+<p class="form-feedback" role="status" tabindex="-1"></p></form>
+</section>
+<section><h2>Regra</h2><p>Na versão com servidor, a credencial de participação deverá ser validada e consumida atomicamente. Aqui apenas o fluxo visual é simulado; nenhuma resposta é armazenada.</p></section>
+</main>
+<footer>
+<hr>
+<p><strong>Projeto Integrador</strong> — Sistema de Gestão de Pesquisas</p>
+<p>Protótipo acadêmico em HTML5, CSS e JavaScript — dados fictícios.</p>
+</footer>
+</body>
+</html>
