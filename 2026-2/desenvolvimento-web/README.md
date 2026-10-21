@@ -4,7 +4,7 @@
 
 Protótipo acadêmico integrado a partir de `desenvolvimentoweb.zip`, fornecido pelo usuário. Preserva as 12 páginas, o banner e a identidade visual recebidos; acrescenta JavaScript, validações, navegação por etapas e ajustes de acessibilidade e responsividade.
 
-**Aplicação:** [abrir demonstração publicada](https://fatec-extensao.github.io/pi-ads-2026-2-igor/). [Código inicial](./src/index.html).
+**Publicação pendente de liberação pelo administrador da organização.** Endereço previsto: [GitHub Pages](https://fatec-extensao.github.io/pi-ads-2026-2-igor/). [Código inicial](./src/index.html).
 
 ## Entregas
 
@@ -30,3 +30,9 @@ Os formulários validam e simulam ações no navegador. Não há autenticação 
 Credenciais não são enviadas por GET, não aparecem na URL e não são guardadas em localStorage, sessionStorage ou cookies. Sem JavaScript, os formulários ficam desativados. A identidade visual recebida foi preservada; o CSS foi reorganizado para partir das telas menores.
 
 A integração com banco e regras de anonimato exige backend, autorização, transações e revisão de segurança. O formulário aberto e as alternativas do ZIP são demonstrações de interface; não modificam o escopo do modelo de dados de cada projeto. A conclusão técnica desta disciplina não representa conclusão do PI nem aprovação acadêmica.
+
+## Situação da publicação
+
+O código foi integrado e os fluxos locais foram testados. Em 21/10/2026, os dois endereços do GitHub Pages retornaram HTTP 404: a organização Fatec-Extensao mantém GitHub Actions desativado para estes repositórios. A tentativa de habilitar no repositório retornou HTTP 409; a conta principal é membro, sem permissão administrativa sobre a organização. Nenhuma política da organização foi alterada.
+
+O administrador deve liberar GitHub Actions para este repositório. Depois, deve-se iniciar a publicação e testar a URL e os recursos públicos antes de concluir a issue de deploy. O front-end pode ser aberto localmente por src/index.html enquanto isso.

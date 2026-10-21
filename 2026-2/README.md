@@ -78,7 +78,7 @@ O protótipo de Desenvolvimento Web foi entregue com HTML, CSS, JavaScript, wire
 
 ## Aplicação publicada
 
-- **Aplicação publicada:** [Protótipo de Desenvolvimento Web](https://fatec-extensao.github.io/pi-ads-2026-2-igor/) — demonstração com dados fictícios.
+- **Aplicação publicada:** [Endereço previsto do protótipo — publicação pendente](https://fatec-extensao.github.io/pi-ads-2026-2-igor/) — demonstração com dados fictícios.
 
 ## Evidências adicionais
 
@@ -87,3 +87,5 @@ O protótipo de Desenvolvimento Web foi entregue com HTML, CSS, JavaScript, wire
 - Apresentação final ou vídeo: pendente.
 
 Os arquivos de evidência serão adicionados ao repositório somente quando tiverem sido efetivamente produzidos.
+
+Publicação pendente: GitHub Actions bloqueado pela política da organização. [Código e instruções locais](./desenvolvimento-web/README.md).
