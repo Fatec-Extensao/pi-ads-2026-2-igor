@@ -59,7 +59,7 @@ A proposta será desenvolvida de forma interdisciplinar, reunindo a documentaç�
 5. Analisar riscos, privacidade, anonimato e adequação à LGPD.
 6. Revisar a documentação, publicar a aplicação e preparar as evidências finais.
 
-Todas as etapas acima estão **pendentes** e serão realizadas pelos alunos nas atividades correspondentes.
+O protótipo de Desenvolvimento Web foi entregue com HTML, CSS, JavaScript, wireframes e evidências de testes. As demais etapas devem ser acompanhadas na documentação de cada disciplina; a conclusão do front-end não representa conclusão integral do PI.
 
 ## Estrutura das entregas
 
@@ -78,7 +78,7 @@ Todas as etapas acima estão **pendentes** e serão realizadas pelos alunos nas 
 
 ## Aplicação publicada
 
-- **Aplicação publicada:** Pendente
+- **Aplicação publicada:** [Protótipo de Desenvolvimento Web](https://fatec-extensao.github.io/pi-ads-2026-2-igor/) — demonstração com dados fictícios.
 
 ## Evidências adicionais
 

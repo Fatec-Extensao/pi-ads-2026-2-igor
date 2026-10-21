@@ -1,9 +1,27 @@
-# Sitemap
+# Sitemap e wireframes
 
-**Status:** Pendente de desenvolvimento pelos alunos.
+Arquitetura extraída do ZIP enviado pelo usuário e atualizada em 21/10/2026. Wireframes de baixa fidelidade documentados a partir das telas recebidas, sem alegar prototipação anterior.
 
-Este arquivo reserva o local da futura documentação da arquitetura da informação e do mapa do site.
+```text
+index.html — Home / Institucional
+├── login.html — acesso e cadastro demonstrativos
+└── main.html — painel de navegação
+    ├── paginas/categoria.html
+    ├── paginas/pesquisa.html
+    ├── paginas/perguntas.html
+    ├── paginas/questionario.html
+    ├── paginas/senhas.html
+    ├── paginas/solicitar-senha.html
+    ├── paginas/responder.html — código → experiência → recomendação → comentário
+    ├── paginas/monitoramento.html
+    └── paginas/relatorios.html
+```
 
-O sitemap e os wireframes ainda não foram elaborados. As imagens deverão ser adicionadas a esta pasta somente quando efetivamente produzidas.
+Todas as páginas compartilham cabeçalho, navegação, rodapé e CSS. O painel dá acesso às nove funções; páginas internas retornam ao painel. O login apenas demonstra navegação e não controla acesso real.
 
-Consulte a [visão de Desenvolvimento Web](../README.md).
+- [Home](./home.svg)
+- [Login / acesso](./login.svg)
+- [Formulário de pesquisa](./formulario.svg)
+- [Painel de resultados](./resultados.svg)
+
+[Abrir protótipo](../src/index.html) · [Voltar à disciplina](../README.md)

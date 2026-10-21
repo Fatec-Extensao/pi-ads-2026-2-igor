@@ -1,7 +1,5 @@
-# Código-fonte do front-end
+# Código do protótipo
 
-**Status:** Pendente de desenvolvimento pelos alunos.
+Entrada: [index.html](./index.html). HTML, CSS e JavaScript estáticos, sem dependências externas no navegador. A imagem foi preservada do ZIP fornecido pelo usuário.
 
-Esta pasta receberá futuramente os arquivos HTML5, CSS3, JavaScript e demais recursos necessários ao front-end. Nenhuma implementação foi antecipada nesta etapa de organização.
-
-Consulte a [visão de Desenvolvimento Web](../README.md).
+[Documentação da disciplina](../README.md)
