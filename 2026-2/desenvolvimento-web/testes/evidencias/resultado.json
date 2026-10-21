@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-21T23:16:33.595Z",
+  "browser": "155.0.4283.62",
+  "results": [
+    "12 páginas em 360px: sem overflow; landmarks, rótulos e imagens conferidos",
+    "12 páginas em 1280px: sem overflow; landmarks, rótulos e imagens conferidos",
+    "Login demonstrativo: vazio rejeitado; formato válido navega sem expor credenciais na URL",
+    "Pesquisa: intervalo inválido e título duplicado rejeitados; dados válidos aceitos",
+    "Configuração do questionário exige ao menos uma pergunta",
+    "Pergunta de escolha exige duas alternativas distintas",
+    "Respondente: código inválido, obrigatoriedade, avanço/retorno com preservação e conclusão única testados",
+    "Relatório fictício muda conforme filtro de categoria",
+    "Geração demonstra quantidade de códigos solicitada",
+    "Sem erros JavaScript/HTTP, envios POST, parâmetros em URL ou dados em localStorage/sessionStorage",
+    "Sem JavaScript: botão de login permanece desativado; credenciais não são enviadas"
+  ]
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Protótipo acadêmico de sistema para gestão de pesquisas de satisfação.">
+<title>Relatórios — Gestão de Pesquisas</title>
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header>
+<figure>
+<img src="../img/fotoinicial.jpg" width="1200" height="240" alt="Banner do Sistema de Gestão de Pesquisas">
+<figcaption>Banner de apresentação do sistema</figcaption>
+</figure>
+<h1>Sistema de Gestão de Pesquisas</h1>
+<p>Protótipo acadêmico para criação, aplicação e acompanhamento de pesquisas.</p>
+<nav aria-label="Navegação principal">
+<ul>
+<li><a href="../index.html">Início</a></li>
+<li><a href="../login.html">Login</a></li>
+<li><a href="../main.html">Sistema</a></li>
+</ul>
+</nav>
+</header>
+<main id="conteudo">
+<p class="demo-notice">Demonstração acadêmica: use apenas dados fictícios. As ações são simuladas nesta página e não enviam nem guardam seus dados.</p>
+<noscript><p>Ative o JavaScript para experimentar os formulários. A navegação das páginas continua disponível.</p></noscript>
+<nav aria-label="Navegação do sistema"><p><a href="../main.html">← Voltar ao painel</a></p></nav>
+<section aria-labelledby="relatorio">
+<h2 id="relatorio">Gerar relatório estatístico</h2>
+<form action="#" method="post">
+<fieldset><legend>Filtros do relatório</legend>
+<p><label for="pesquisa">Pesquisa:</label><br><select id="pesquisa" name="pesquisa" required><option>Pesquisa de Satisfação 2026</option></select></p>
+<p><label for="categoria">Categoria:</label><br><select id="categoria" name="categoria" required><option>Todas</option><option>Aluno</option><option>Professor</option></select></p>
+</fieldset><button type="submit" disabled>Gerar relatório</button>
+<p class="form-feedback" role="status" tabindex="-1"></p></form>
+</section>
+<section aria-labelledby="resultados">
+<h2 id="resultados">Resultados fictícios de demonstração</h2>
+<div class="table-scroll" role="region" aria-label="Tabela de dados fictícios" tabindex="0"><table>
+<caption>Indicadores da Pesquisa de Satisfação 2026</caption>
+<thead><tr><th scope="col">Indicador</th><th scope="col">Resultado</th></tr></thead>
+<tbody><tr><th scope="row">Total de respostas</th><td>55</td></tr>
+<tr><th scope="row">Avaliações positivas</th><td>82%</td></tr>
+<tr><th scope="row">Avaliações regulares</th><td>13%</td></tr>
+<tr><th scope="row">Avaliações negativas</th><td>5%</td></tr></tbody>
+</table></div>
+</section>
+</main>
+<footer>
+<hr>
+<p><strong>Projeto Integrador</strong> — Sistema de Gestão de Pesquisas</p>
+<p>Protótipo acadêmico em HTML5, CSS e JavaScript — dados fictícios.</p>
+</footer>
+</body>
+</html>
