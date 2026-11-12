@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Protótipo acadêmico de sistema para gestão de pesquisas de satisfação.">
+<title>Login — Gestão de Pesquisas</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header>
+<figure>
+<img src="img/fotoinicial.jpg" width="1200" height="240" alt="Banner do Sistema de Gestão de Pesquisas">
+<figcaption>Banner de apresentação do sistema</figcaption>
+</figure>
+<h1>Sistema de Gestão de Pesquisas</h1>
+<p>Protótipo acadêmico para criação, aplicação e acompanhamento de pesquisas.</p>
+<nav aria-label="Navegação principal">
+<ul>
+<li><a href="index.html">Início</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="main.html">Sistema</a></li>
+</ul>
+</nav>
+</header>
+<main id="conteudo">
+<p class="demo-notice">Demonstração acadêmica: use apenas dados fictícios. As ações são simuladas nesta página e não enviam nem guardam seus dados.</p>
+<noscript><p>Ative o JavaScript para experimentar os formulários. A navegação das páginas continua disponível.</p></noscript>
+<section aria-labelledby="login">
+<h2 id="login">Acesso de demonstração</h2>
+<form action="#" method="post">
+<fieldset>
+<legend>Dados de acesso</legend>
+<p><label for="email">E-mail institucional:</label><br><input id="email" name="email" type="email" autocomplete="username" placeholder="nome@instituicao.edu.br" required></p>
+<p><label for="senha">Senha:</label><br><input id="senha" name="senha" type="password" autocomplete="current-password" minlength="8" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9]).{8,}" title="Use pelo menos 8 caracteres, incluindo maiúscula, minúscula, número e caractere especial." required></p>
+<p><label for="perfil">Tipo de usuário:</label><br><select id="perfil" name="perfil" required><option value="">Selecione uma opção</option><option value="aluno">Aluno</option><option value="professor">Professor</option><option value="colaborador">Colaborador</option></select></p>
+</fieldset>
+<button type="submit" disabled>Entrar na demonstração</button>
+<p class="form-feedback" role="status" tabindex="-1"></p></form>
+</section>
+<section aria-labelledby="cadastro-usuario">
+<h2 id="cadastro-usuario">Cadastrar usuário</h2>
+<form action="#" method="post">
+<fieldset>
+<legend>Dados para cadastro</legend>
+<p><label for="cad-email">E-mail institucional:</label><br><input id="cad-email" name="cad-email" type="email" autocomplete="email" required></p>
+<p><label for="cad-senha">Criar senha:</label><br><input id="cad-senha" name="cad-senha" type="password" autocomplete="new-password" minlength="8" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9]).{8,}" title="Use pelo menos 8 caracteres, incluindo maiúscula, minúscula, número e caractere especial." required></p>
+<p><label for="cad-categoria">Categoria:</label><br><select id="cad-categoria" name="cad-categoria" required><option value="">Selecione uma opção</option><option>Aluno</option><option>Professor</option></select></p>
+</fieldset>
+<button type="submit" disabled>Cadastrar</button>
+<p class="form-feedback" role="status" tabindex="-1"></p></form>
+</section>
+<section aria-labelledby="seguranca">
+<h2 id="seguranca">Regras previstas para a versão com servidor</h2>
+<ul>
+<li>Controle de acesso conforme o perfil.</li>
+<li>Bloqueio temporário após 5 tentativas de login inválidas.</li>
+<li>Uso único das senhas anônimas.</li>
+<li>Armazenamento seguro das senhas em uma futura implementação com back-end.</li>
+</ul>
+</section>
+</main>
+<footer>
+<hr>
+<p><strong>Projeto Integrador</strong> — Sistema de Gestão de Pesquisas</p>
+<p>Protótipo acadêmico em HTML5, CSS e JavaScript — dados fictícios.</p>
+</footer>
+</body>
+</html>

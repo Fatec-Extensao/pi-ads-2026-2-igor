@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-21",
+  "url": "https://fatec-extensao.github.io/pi-ads-2026-2-igor/",
+  "http_status": 404,
+  "status": "blocked_by_organization_actions_policy",
+  "repository_enable_attempt": 409,
+  "organization_admin": false,
+  "next_step": "Administrador da organização deve liberar Actions neste repositório; executar deploy e verificar site antes de encerrar a issue de publicação."
+}

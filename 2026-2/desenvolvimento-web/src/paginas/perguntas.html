@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Protótipo acadêmico de sistema para gestão de pesquisas de satisfação.">
+<title>Perguntas — Gestão de Pesquisas</title>
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header>
+<figure>
+<img src="../img/fotoinicial.jpg" width="1200" height="240" alt="Banner do Sistema de Gestão de Pesquisas">
+<figcaption>Banner de apresentação do sistema</figcaption>
+</figure>
+<h1>Sistema de Gestão de Pesquisas</h1>
+<p>Protótipo acadêmico para criação, aplicação e acompanhamento de pesquisas.</p>
+<nav aria-label="Navegação principal">
+<ul>
+<li><a href="../index.html">Início</a></li>
+<li><a href="../login.html">Login</a></li>
+<li><a href="../main.html">Sistema</a></li>
+</ul>
+</nav>
+</header>
+<main id="conteudo">
+<p class="demo-notice">Demonstração acadêmica: use apenas dados fictícios. As ações são simuladas nesta página e não enviam nem guardam seus dados.</p>
+<noscript><p>Ative o JavaScript para experimentar os formulários. A navegação das páginas continua disponível.</p></noscript>
+<nav aria-label="Navegação do sistema"><p><a href="../main.html">← Voltar ao painel</a></p></nav>
+<section aria-labelledby="titulo-funcao">
+<h2 id="titulo-funcao">Cadastrar perguntas e alternativas</h2>
+<p>Crie uma pergunta e defina o tipo de resposta esperado.</p>
+<form action="#" method="post">
+<fieldset><legend>Dados da pergunta</legend>
+<p><label for="pergunta">Pergunta:</label><br><textarea id="pergunta" name="pergunta" rows="4" maxlength="500" required></textarea></p>
+<p><label for="tipo">Tipo de resposta:</label><br><select id="tipo" name="tipo" required><option value="">Selecione</option><option>Múltipla escolha</option><option>Sim / Não</option><option>Resposta aberta</option><option>Escala de satisfação</option></select></p>
+<p><label for="alternativas">Alternativas / respostas possíveis:</label><br><textarea id="alternativas" name="alternativas" rows="6" placeholder="Uma alternativa por linha"></textarea></p>
+</fieldset><button type="submit" disabled>Cadastrar pergunta</button>
+<p class="form-feedback" role="status" tabindex="-1"></p></form>
+</section>
+
+</main>
+<footer>
+<hr>
+<p><strong>Projeto Integrador</strong> — Sistema de Gestão de Pesquisas</p>
+<p>Protótipo acadêmico em HTML5, CSS e JavaScript — dados fictícios.</p>
+</footer>
+</body>
+</html>
