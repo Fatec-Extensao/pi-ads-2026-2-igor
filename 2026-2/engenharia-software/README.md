@@ -2,14 +2,15 @@
 
 **Professor:** Prof. Rafael Hamamura
 
-Esta pasta reunirá os artefatos de análise e modelagem de software produzidos durante o semestre.
+Esta pasta reúne os artefatos de análise e modelagem de software do Sistema Web para Gestão de Pesquisas por Questionários.
 
-## Conteúdo previsto
+## Artefatos
 
 - [Requisitos funcionais e não funcionais](./requisitos.md).
-- Casos de uso e respectivo diagrama UML.
-- Diagrama de classes.
-- Diagrama de sequência.
-- [Documentação técnica da modelagem UML](./modelagem-uml/especificacao.md).
+- [Diagrama de casos de uso](./modelagem-uml/casos-de-uso.svg).
+- [Diagrama de classes](./modelagem-uml/classes.svg).
+- [Diagrama de sequência do preenchimento](./modelagem-uml/sequencia.svg).
+- [Especificação técnica, cardinalidades e rastreabilidade](./modelagem-uml/especificacao.md).
+- [Registro de verificação](./verificacao.md).
 
-Os requisitos e diagramas ainda não foram produzidos. Imagens serão adicionadas em PNG ou SVG e referenciadas por links relativos somente após sua elaboração.
+Os modelos são conceituais e descrevem a proposta do projeto. A especificação registra premissas, limites e decisões ainda dependentes de validação pelo grupo; não deve ser tratada como prova de funcionalidades já implementadas.

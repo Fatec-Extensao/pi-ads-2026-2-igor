@@ -24,15 +24,15 @@
 
 ## Integrantes do grupo
 
-- **Pendente:** inserir os nomes dos integrantes após confirmação pelo grupo.
+- **Pendente de confirmação pelo grupo.** Os integrantes não foram inferidos a partir do nome da conta GitHub.
 
 ## Visão geral do projeto
 
-O projeto acadêmico tem como tema um **Sistema Web para Gestão de Pesquisas por Questionários**. Os requisitos, modelos, regras de negócio e decisões técnicas ainda serão definidos e documentados durante o semestre.
+O projeto acadêmico tem como tema um **Sistema Web para Gestão de Pesquisas por Questionários**. Esta pasta reúne os requisitos, modelos e scripts elaborados para o semestre e indica expressamente os limites do protótipo.
 
 ## Descrição do projeto
 
-A proposta será desenvolvida de forma interdisciplinar, reunindo a documentação de Engenharia de Software, a modelagem e os scripts de Banco de Dados, a implementação de Desenvolvimento Web e os estudos de Compliance e Segurança da Informação. Esta estrutura registra os locais previstos para cada entrega, sem antecipar seu conteúdo acadêmico.
+A proposta é desenvolvida de forma interdisciplinar, reunindo requisitos e modelagem de Engenharia de Software, DDL/DML de Banco de Dados, protótipo de Desenvolvimento Web e análises de Compliance e Segurança da Informação. Os scripts e diagramas são artefatos acadêmicos de projeto: não demonstram uma aplicação de produção.
 
 ## Objetivos
 
@@ -59,7 +59,7 @@ A proposta será desenvolvida de forma interdisciplinar, reunindo a documentaç�
 5. Analisar riscos, privacidade, anonimato e adequação à LGPD.
 6. Revisar a documentação, publicar a aplicação e preparar as evidências finais.
 
-O protótipo de Desenvolvimento Web foi entregue com HTML, CSS, JavaScript, wireframes e evidências de testes. As demais etapas devem ser acompanhadas na documentação de cada disciplina; a conclusão do front-end não representa conclusão integral do PI.
+O protótipo Web está publicado e possui HTML, CSS, JavaScript, wireframes e evidências de teste. Os requisitos, UML, scripts SQL e relatórios de segurança estão documentados abaixo. Não foram informados nomes confirmados dos integrantes nem um arquivo ou link de apresentação final; esses itens permanecem pendentes de fornecimento pelo grupo. A conclusão destes artefatos não representa integração funcional entre front-end, backend e banco nem aprovação acadêmica ou jurídica.
 
 ## Estrutura das entregas
 
@@ -78,14 +78,20 @@ O protótipo de Desenvolvimento Web foi entregue com HTML, CSS, JavaScript, wire
 
 ## Aplicação publicada
 
-- **Aplicação publicada:** [Endereço previsto do protótipo — publicação pendente](https://fatec-extensao.github.io/pi-ads-2026-2-igor/) — demonstração com dados fictícios.
+- **Aplicação publicada:** [Abrir o protótipo no GitHub Pages](https://fatec-extensao.github.io/pi-ads-2026-2-igor/) — site estático público, verificado em 11/11/2026. É uma demonstração de interface e não coleta respostas reais.
 
 ## Evidências adicionais
 
-- Diagramas, wireframes e imagens: pendentes de produção.
-- Testes e validações: pendentes.
-- Apresentação final ou vídeo: pendente.
+- Diagramas UML: [classes](./engenharia-software/modelagem-uml/classes.svg), [sequência](./engenharia-software/modelagem-uml/sequencia.svg) e [casos de uso](./engenharia-software/modelagem-uml/casos-de-uso.svg).
+- Wireframes e sitemap: [artefatos SVG e navegação](./desenvolvimento-web/wireframes/sitemap.md).
+- Verificação do protótipo: [procedimentos e evidências](./desenvolvimento-web/testes/README.md).
+- Apresentação final ou vídeo: ainda não fornecido pelo grupo; adicionar o link aqui quando disponível.
 
-Os arquivos de evidência serão adicionados ao repositório somente quando tiverem sido efetivamente produzidos.
+## Revisão da entrega
 
-Publicação pendente: GitHub Actions bloqueado pela política da organização. [Código e instruções locais](./desenvolvimento-web/README.md).
+- Cada disciplina possui README e links relativos para seus artefatos.
+- Os scripts SQL são acompanhados de dados fictícios e consultas de exemplo; precisam ser executados apenas em PostgreSQL de teste, após leitura das instruções.
+- Os relatórios de segurança descrevem o protótipo e as lacunas; não são certificação de conformidade.
+- Os diagramas e wireframes estão versionados como SVG.
+- O link público do protótipo foi verificado e o site respondeu em 11/11/2026.
+- Não há apresentação final ou vídeo disponível nesta revisão. Os nomes dos integrantes também aguardam confirmação.

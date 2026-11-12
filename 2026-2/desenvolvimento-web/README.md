@@ -4,7 +4,7 @@
 
 Protótipo acadêmico integrado a partir de `desenvolvimentoweb.zip`, fornecido pelo usuário. Preserva as 12 páginas, o banner e a identidade visual recebidos; acrescenta JavaScript, validações, navegação por etapas e ajustes de acessibilidade e responsividade.
 
-**Publicação pendente de liberação pelo administrador da organização.** Endereço previsto: [GitHub Pages](https://fatec-extensao.github.io/pi-ads-2026-2-igor/). [Código inicial](./src/index.html).
+**Publicado no GitHub Pages:** [abrir a demonstração](https://fatec-extensao.github.io/pi-ads-2026-2-igor/). A URL respondeu em 11/11/2026. A publicação é servida da branch `gh-pages`, com os arquivos estáticos da pasta `src`; o envio à branch de trabalho não está configurado como deploy automático.
 
 ## Entregas
 
@@ -35,4 +35,4 @@ A integração com banco e regras de anonimato exige backend, autorização, tra
 
 O código foi integrado e os fluxos locais foram testados. Em 21/10/2026, os dois endereços do GitHub Pages retornaram HTTP 404: a organização Fatec-Extensao mantém GitHub Actions desativado para estes repositórios. A tentativa de habilitar no repositório retornou HTTP 409; a conta principal é membro, sem permissão administrativa sobre a organização. Nenhuma política da organização foi alterada.
 
-O administrador deve liberar GitHub Actions para este repositório. Depois, deve-se iniciar a publicação e testar a URL e os recursos públicos antes de concluir a issue de deploy. O front-end pode ser aberto localmente por src/index.html enquanto isso.
+O repositório da organização permanece sem fluxo automatizado de deploy por Actions. A publicação existente foi feita por branch estática `gh-pages`; o site continua separado da branch de desenvolvimento. Após alterações no front-end, a cópia publicada precisa ser atualizada conscientemente e a URL revisada. [Código inicial](./src/index.html).
