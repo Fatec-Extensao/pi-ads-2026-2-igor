@@ -2,13 +2,11 @@
 
 **Professor:** Prof. Alciano Gustavo Genovez de Oliveira
 
-Esta pasta reunirá os estudos de segurança, privacidade e conformidade produzidos durante o semestre.
+Esta pasta reúne análises acadêmicas do desenho do Sistema Web para Gestão de Pesquisas por Questionários.
 
-## Conteúdo previsto
+## Artefatos
 
 - [Análise de riscos](./analise-de-riscos.md).
-- Identificação de ameaças e vulnerabilidades.
-- Classificação e medidas de mitigação.
-- [LGPD, anonimato e privacidade](./lgpd-e-anonimato.md).
+- [Privacidade, LGPD e anonimato](./lgpd-e-anonimato.md): dados previstos, retenção/exclusão propostas e modelo de aviso de privacidade.
 
-A matriz de riscos, as medidas de mitigação e a análise de adequação à LGPD ainda não foram desenvolvidas.
+Os relatórios são análises acadêmicas de desenho. A interface publicada não possui backend ou tratamento real de respostas. Os documentos não constituem parecer jurídico, certificação de segurança nem confirmação de conformidade da instituição. Hipóteses legais, responsáveis, prazos e texto de privacidade precisam de validação pelo controlador antes de qualquer pesquisa real.
